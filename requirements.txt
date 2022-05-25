@@ -1,0 +1,6 @@
+# python packages required for innovalie/sprof project
+scipy # will also install numpy
+matplotlib
+watchdog
+pandas
+Pillow

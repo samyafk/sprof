@@ -1,0 +1,44 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/LGPL-3.0",
+    "codeRepository": "https://github.com/samyafk/sprof",
+    "dateCreated": "2019-06-01",
+    "datePublished": "2020-02-14",
+    "dateModified": "2020-02-14",
+    "downloadUrl": "https://github.com/samyafk/sprof",
+    "name": "sprof",
+    "description": "Analyse automatique de données radar de sprint, en vue d'extraire des valeurs caractéristiques du profil Puissance - Force - Vitesse des athlétes.\nCode python développé au Laboratoire Jean Kuntzmann (Caroline Bligny), en collaboration avec le FCG, et basé sur les travaux de recherche de Pierre Samozino.",
+    "programmingLanguage": [
+        "Python 3"
+    ],
+    "softwareRequirements": [
+        "scipy",
+        "matplotlib",
+        "watchdog",
+        "pandas",
+        "Pillow"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Caroline",
+            "familyName": "Bligny",
+            "email": "caroline.bligny@univ-grenoble-alpes.fr",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CNRS, IE"
+            }
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stéphane",
+            "familyName": "labbé",
+            "email": "stephane.labbe@univ-grenoble-alpes.fr",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "UGA, PR"
+            }
+        }
+    ]
+}
